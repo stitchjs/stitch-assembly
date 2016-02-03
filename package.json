@@ -1,0 +1,22 @@
+{
+  "name": "stitch-assembly",
+  "description": "Create the assembly-line of your stitch project.",
+  "version": "0.0.4",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "bin": {
+    "stitch": "./bin/stitch.js"
+  },
+  "keywords": [
+    "command line",
+    "task runner"
+  ],
+  "dependencies": {
+    "interpret": "~0.4.1",
+    "liftoff": "~2.0.0",
+    "minimist": "~1.1.0"
+  },
+  "devDependencies": {}
+}
